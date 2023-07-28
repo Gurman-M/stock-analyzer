@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Stock Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <br><br>
+
+    <h1>Stock Analyzer</h1>
+
+    <br><br>
+
+    <p>
+        To get started, type in a company's symbol and enter it into the text field. 
+        The calculator will return two files, either in PDF or CSV format, showing the percent gains 
+        and loss during different periods between local minimum and maximum points in the company's stock market history.
+    </p>
+    
+    <br><br>
+
+    <div class="form">
+        <label for="Name">Name:</label>
+        <br>
+        <form action="/get_data/">
+            <input type="text" id="Name" name="Name" placeholder="ex. AAPL">
+        </form>
+        <br>
+        <button type="button" <a href="/get_data/"></a>Submit</button>
+    </div>
+</body>

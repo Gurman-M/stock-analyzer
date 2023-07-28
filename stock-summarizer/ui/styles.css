@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    height: 200 px;
+}
+
+.form label{
+    margin: auto;
+    text-align: center;
+}
+
+.form input{
+    display: block;
+    margin:auto;
+}
+
+.form label {
+    display: block;
+    margin: auto;
+}
+
+.form button {
+    display: block;
+    margin: auto;
+}
